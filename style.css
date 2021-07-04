@@ -82,7 +82,7 @@ body {
 }
 
 .hero__bg {
-  background-image: url("/src/heroBg.png");
+  background-image: url("./src/heroBg.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ body {
 }
 
 .about__bg {
-  background-image: url("/src/aboutBg.png");
+  background-image: url("./src/aboutBg.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ body {
 }
 
 .projects__bg {
-  background-image: url("/src/projectsBg.png");
+  background-image: url("./src/projectsBg.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@ body {
 }
 
 .team__bg {
-  background-image: url("/src/teamBg.png");
+  background-image: url("./src/teamBg.png");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
