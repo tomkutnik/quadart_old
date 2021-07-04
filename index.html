@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <title>Quadart - 360° architektury - Piotr Orzeszek</title>
+</head>
+
+<body >
+
+  <div class="carousel">
+    <button class="nav__btn nav__btn-left" onclick="rotate('left')"></button>
+    <button class="nav__btn nav__btn-right" onclick="rotate('right')"></button>
+    <div id="carousel" class="carousel-content">
+
+      <div class="carousel-item">
+        <div class="hero__bg">
+          <img class="hero__logo" src="src/logo.png">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="about__bg">
+          <img class="about__logo" src="src/logo.png">
+          <div class="about__text">
+            <p><strong>Doświadczenie projektowe i ilość realizacji pozwalają nam łączyć każdorazowo wypracowane, wzorcowe koncepcje
+            z realiami procesu inwestycyjnego. Jak pracujemy? Ściśle współdziałamy z klientem. Słuchamy, analizujemy
+            potrzeby, proponujemy kilka najkorzystniejszych wariantów, ale wybór rozwiązania zawsze należy do
+            zleceniodawcy.</strong></p>
+
+            <p>Organizujemy i kontrolujemy wszystkie zagadnienia administracyjne, a na życzenie, także aspekty prawne
+            inwestycji. Kolejne etapy prac wykonujemy na czas i dlatego nasi partnerzy dotrzymują zaplanowanych terminów
+            realizacji inwestycji. To przyczynia się do wzmacniania ich marki oraz pogłębienia zaufania klientów, którzy
+            jak wiadomo są najskuteczniejszą reklamą dla każdej firmy.</p>
+
+            <p><strong>Dlaczego nasze budowy przebiegają sprawnie? </strong>Wystarczy, że dokumentacja będzie skoordynowana, dokładna,
+            czytelna i logiczna. Ten styl działania docenili zadowoleni ze współpracy deweloperzy, proponując udział w
+            kilku długoterminowych i kompleksowych przedsięwzięciach.</p>
+
+            <p>Satysfakcję przynoszą nam także kolejne zlecenia od tych samych inwestorów. Jesteśmy dla nich gwarancją
+            pomyślnych rezultatów, a otrzymane w konkursach architektonicznych nagrody potwierdzają wartość i wysoką
+            jakość pracy.</p>
+
+
+            <p>Zmierzamy prosto do wspólnego celu - sfinalizowania Państwa zamierzenia inwestycyjnego.</p>
+
+            <p>Wystarczy pamiętać, że jedyną prowadzącą do niego drogą są: nasze zaangażowanie, twórcze myślenie, zdolności
+            analityczne, entuzjazm a czasem determinacja zespołu, doświadczenie oraz dobrze wykonany projekt i jego
+            sprawna realizacja.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="projects__bg">
+          <img class="projects__logo" src="src/logo.png">
+          <div id="pInfoA" class="projects__info">
+
+            <img class="projects__picBig" src="src/1.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'A')">X</button>
+            <div class="projects__details">
+              <p>Kraków, ul. Prądnicka</p>
+
+              <p>APT-DOM Sp. z o.o.</p>
+
+
+              Powierzchnia - 12 300 m2
+            </div>
+          </div>
+          <div id="pInfoB" class="projects__info">
+
+            <img class="projects__picBig" src="src/2.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'B')">X</button>
+            <div class="projects__details">
+              <p>Kraków, ul. Emaus</p>
+
+
+              Powierzchnia - 2400 m2
+            </div>
+          </div>
+
+          <div id="pInfoC" class="projects__info">
+
+            <img class="projects__picBig" src="src/3.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'C')">X</button>
+            <div class="projects__details">
+              <p>Kraków, Plac Na Groblach </p>
+              <p>Doctor Q Bud Sp. z o.o.</p>
+
+
+              Powierzchnia - 10350 m2
+            </div>
+          </div>
+
+          <div id="pInfoD" class="projects__info">
+
+            <img class="projects__picBig" src="src/4.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'D')">X</button>
+            <div class="projects__details">
+              <p>Kraków, ul. Kalwaryjska </p>
+              <p>Spółka deweloperska</p>
+
+
+              Powierzchnia - 4400 m2
+            </div>
+          </div>
+
+          <div id="pInfoE" class="projects__info">
+
+            <img class="projects__picBig" src="src/5.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'E')">X</button>
+            <div class="projects__details">
+              <p>Kraków, ul. Marcika</p>
+              <p>Proton Property Sp. z o.o. S.K</p>
+
+
+              Powierzchnia - 5000 m2
+            </div>
+          </div>
+
+          <div id="pInfoF" class="projects__info">
+
+            <img class="projects__picBig" src="src/6.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'F')">X</button>
+            <div class="projects__details">
+              <p>Kraków, ul. Zakopiańska</p>
+              <p>Proton Property Sp. z o.o. S.K</p>
+
+
+              Powierzchnia - 4500 m2
+            </div>
+          </div>
+
+          <div id="pInfoG" class="projects__info">
+
+            <img class="projects__picBig" src="src/7.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'G')">X</button>
+            <div class="projects__details">
+              <p>Kraków, ul. Śląska</p>
+              <p>Zakład Energetyczny Kraków (obecnie Tauron S.A.)</p>
+
+
+              Powierzchnia - 200 m2
+            </div>
+          </div>
+
+          <div id="pInfoH" class="projects__info">
+
+            <img class="projects__picBig" src="src/8.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'H')">X</button>
+            <div class="projects__details">
+              <p>Skawina, ul. Krakowska </p>
+              <p>„Mix Electronics” S.A.</p>
+
+
+              Kubatura ok. – 200 000 m3
+            </div>
+          </div>
+
+          <div id="pInfoI" class="projects__info">
+
+            <img class="projects__picBig" src="src/9.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'I')">X</button>
+            <div class="projects__details">
+              <p>Modlniczka, ul. Handlowców</p>
+              <p>Witek Home</p>
+
+
+              Powierzchnia użytkowa – 2100 m2
+            </div>
+          </div>
+
+          <div id="pInfoJ" class="projects__info">
+
+            <img class="projects__picBig" src="src/10.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'J')">X</button>
+            <div class="projects__details">
+              <p>Warszawa, ul. Puławska</p>
+              <p>Bas Puławska sp. z o.o. sp. k.</p>
+
+
+              Powierzchnia użytkowa – 18500 m2
+            </div>
+          </div>
+
+          <div id="pInfoK" class="projects__info">
+
+            <img class="projects__picBig" src="src/11.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'K')">X</button>
+            <div class="projects__details">
+              <p>Kraków, ul. Szczepańska</p>
+
+              Powierzchnia użytkowa – 524 m2
+            </div>
+          </div>
+
+          <div id="pInfoL" class="projects__info">
+
+            <img class="projects__picBig" src="src/12.png">
+            <button class="projects__xBtn" onclick="projectShow('close', 'L')">X</button>
+            <div class="projects__details">
+              <p>Kraków, Plac Matejki</p>
+              <p>Krakowski Zarząd Komunalny</p>
+
+              Powierzchnia użytkowa – 10000m2
+            </div>
+          </div>
+
+          <div class="projects__area">
+            <div class="projects__item">
+              <img class="projects__pic" src="src/1.png" onclick="projectShow('open', 'A')">
+
+            </div>
+            <div class="projects__item">
+              <img class="projects__pic" src="src/2.png" onclick="projectShow('open', 'B')">
+            </div>
+            <div class="projects__item">              <img class="projects__pic" src="src/3.png" onclick="projectShow('open', 'C')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/4.png" onclick="projectShow('open', 'D')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/5.png" onclick="projectShow('open', 'E')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/6.png" onclick="projectShow('open', 'F')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/7.png" onclick="projectShow('open', 'G')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/8.png" onclick="projectShow('open', 'H')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/9.png" onclick="projectShow('open', 'I')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/10.png" onclick="projectShow('open', 'J')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/11.png" onclick="projectShow('open', 'K')"></div>
+            <div class="projects__item"><img class="projects__pic" src="src/12.png" onclick="projectShow('open', 'L')"></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="team__bg">
+          <img class="team__logo" src="src/logo.png">
+          <div class="team__squad">
+            <div class="team__card">
+              <h4>Piotr Orzeszek</h4>
+              tel. 601746876, p.orzeszek@quadart.pl
+            </div>
+            <div class="team__card">
+              <h4>Agata Twardak</h4>
+              tel. 661926442, biuro@quadart.pl
+            </div>
+            <div class="team__card">
+              <h4>Aleksandra Zawadowska</h4>
+              tel. 663333764, a.zawadowska@quadart.pl
+            </div>
+            <div class="team__card">
+              <h4>Tomasz Kutnik</h4>
+              tel. 692940011, t.kutnik@quadart.pl
+            </div>
+            <div class="team__card">
+              <h4>Aleksandra Chruściel</h4>
+              tel. 534212232, a.chrusciel@quadart.pl
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
